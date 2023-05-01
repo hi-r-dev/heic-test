@@ -28,6 +28,7 @@ function UploadForm() {
     <form>
       <label htmlFor="file-input">Upload HEIC file:</label>
       <input
+        name="file"
         id="file-input"
         type="file"
         accept=".heic,.heif"
