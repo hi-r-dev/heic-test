@@ -1,5 +1,5 @@
 import "./App.css";
-import UploadForm from "./UploadForm";
+import UploadForm from "./FileUpload";
 
 function App() {
   return <UploadForm />;
