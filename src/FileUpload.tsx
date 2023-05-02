@@ -34,7 +34,7 @@ function FileUpload() {
   return (
     <form onSubmit={onSubmit}>
       <div>
-        <input type="file" onChange={onChange} />
+        <input type="file" capture="camera" onChange={onChange} />
       </div>
       <button type="submit">Upload</button>
       {fileName && <p>{fileName}</p>}
