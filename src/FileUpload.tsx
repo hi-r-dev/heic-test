@@ -34,7 +34,11 @@ function FileUpload() {
   return (
     <form onSubmit={onSubmit}>
       <div>
-        <input type="file" capture="camera" onChange={onChange} />
+        <input
+          type="file"
+          accept="image/heic,image/heif,image/*"
+          onChange={onChange}
+        />
       </div>
       <button type="submit">Upload</button>
       {fileName && <p>{fileName}</p>}
